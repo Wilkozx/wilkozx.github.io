@@ -1,0 +1,25 @@
+#tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tag {
+    padding: 5px 10px;
+    border-radius: 12px;
+    margin: 5px;
+    margin-top: 15px;
+    font-size: 0.8em;
+}
+
+#java {
+    background-color: #f89820;
+}
+
+#nosql {
+    background-color: #47A248;
+}
+
+#maven {
+    background-color: #C71A36;
+}
