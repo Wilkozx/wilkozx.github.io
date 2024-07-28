@@ -147,11 +147,6 @@ main h2 {
     border-top: #858585 1px solid;
 }
 
-.project-card:hover {
-    border-bottom: #858585 1px solid;
-    border-right: #858585 1px solid;
-}
-
 .project-card-image img {
     display: flex;
     flex-direction: column;
