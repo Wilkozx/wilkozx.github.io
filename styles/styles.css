@@ -23,6 +23,13 @@ main {
     padding: 20px;
     max-width: 1500px;
     padding-top: 0;
+    color: white;
+}
+
+main h2 {
+    color: #858585;
+    font-size: 1.5em;
+    margin: 15px;
 }
 
 #left-main {
@@ -63,7 +70,7 @@ main {
 }
 
 #nav-opts a:hover {
-    color: #fff278;
+    color: #4effca;
     scale: 1.05;
 }
 
@@ -86,9 +93,10 @@ main {
     flex-direction: column;
     float: right;
     width: 90%;
-    margin-top: 75px;
+    margin-top: 15px;
     margin-right: 15px;
     border-radius: 12px;
+    border-top: #858585 1px solid;
 }
 
 #quick-links {
@@ -130,18 +138,13 @@ main {
     width: 100%;
 }
 
-#projects h2 {
-    color: #858585;
-    font-size: 1.5em;
-    margin: 15px;
-}
-
 .project-card {
     display: flex;
     flex-direction: row;
     background-color: #11111180;
     margin: 15px;
     border-radius: 12px;
+    border-top: #858585 1px solid;
 }
 
 .project-card:hover {
@@ -216,4 +219,69 @@ main {
     flex-direction: column;
     margin: 0 auto;
     width: 100%;
+}
+
+#about-card {
+    display: flex;
+    background-color: #11111180;
+    margin: 15px;
+    border-radius: 12px;
+    height: 175px;
+    border-top: #858585 1px solid;
+}
+
+#about-text-content {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+#intro-card {
+    display: flex;
+    align-items: center;
+    background-color: #11111180;
+    margin: 15px;
+    border-radius: 12px;
+    height: 500px;
+    border-bottom: #858585 1px solid;
+}
+
+#intro-image-content {
+    margin: 0 auto;
+}
+
+#intro-image-content img {
+    height: 250px;
+    border-radius: 600px;
+}
+
+#intro-text-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}   
+
+#intro-text-content h2 {
+    color: #858585;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+#intro-text-content h1 {
+    color: #c4ffed;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+}
+
+#intro-text-content p {
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+#intro-text-content em {
+    color: #ffc14e;
 }
