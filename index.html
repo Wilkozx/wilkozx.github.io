@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/tags.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Wilko{zx}</h1>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div id="intro-card">
+        <img src="images/placeholder.png" alt="test">
+        <div id="intro-card-content">
+            <div id="intro-card-header">
+                <p id="hi">Hello, I'm</p>
+                <h2 id="name">Alex Wilkinson</h2>
+                <p id="title">A <em>Software Developer</em> based In <em>East Midlands, England.</em></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="about-card">
+        <div class="title">About Me</div>
+        <p>
+            I Am a 21 year old Computer Science Student at De Montfort University. Now before programming I was more interested in tinkering in 3D/Photo editing software, 
+            but somehow over the course of a year, my friends who were studying Computer Science at the time introduced me to programming, I found myself more and more interested in programming.
+            That led me to create a simple-text based adventure game, and since then I've been hooked on programming and the problem-solving that comes with it.
+        </p>
+    </div>
+
+    <div id="content-area">
+        <div id="left-side">
+            <div class="title">Projects</div>
+            <div id="projects">
+                <div class="project-card">
+                    <a href="https://github.com/Wilkozx/Bus-Buddy"><img src="images/map.png" alt="github repo link"></a>
+                    <div class="project-card-details">
+                        <div class="project-card-title">
+                            <h3>Bus Buddy</h3>
+                            <p>Started June 2024</p>
+                        </div>
+                        <div class="project-card-content">
+                            <p>
+                                Bus-Buddy consists of both a frontend web application to display real time bus information made in React.
+                                As well as a backend API made in Python using Flask to handle the data from the frontend and to interact with the PostgresSQL database.
+                                The main source of the data comes from Bus Open Data Service (BODS) API, which is then parsed & stored in the PostgresSQL database.
+                                It's also completely containerised using Docker, so it can be easily deployed to any cloud service.
+                            </p>
+                        </div>
+                        <div class="project-card-footer">
+                            <div id="tags">
+                                <p id="react" class="tag">React</p>
+                                <p id="python" class="tag">Python</p>
+                                <p id="flask" class="tag">Flask</p>
+                                <p id="postgresSQL" class="tag">postgresSQL</p>
+                                <p id="docker" class="tag">Docker</p>
+                            </div>
+                            <a href="https://github.com/Wilkozx/Bus-Buddy"><img src="icons/github.svg" alt="github"></a>
+                        </div>
+                    </div>
+                </div>  
+                <div class="project-card">
+                    <a href="https://github.com/Wilkozx/OrionV3"><img src="images/orion.png" alt="github repo link"></a>
+                    <div class="project-card-details">
+                        <div class="project-card-title">
+                            <h3>Orion</h3>
+                            <p>Started Jan 2024</p>
+                        </div>
+                        <div class="project-card-content">
+                            <p>
+                                Orion is a discord music bot built using the Java Discord Api. 
+                                Orion was a project that me and a friend worked on as a way to further develop our programming knowledge during our degree, 
+                                and to practise the skills we were learning. Orion utilises Maven to manage dependencies and Lavaplayer to play music. 
+                                Secrets are managed via Dotenv to ensure that no sensitive data is made public.
+                                It's also self-hosted and the setup/updates are handled via Bash scripts.
+                            </p>
+                        </div>
+                        <div class="project-card-footer">
+                            <div id="tags">
+                                <p id="java" class="tag">Java</p>
+                                <p id="maven" class="tag">Maven</p>
+                                <p id="nosql" class="tag">noSQL</p>
+                                <p id="bash" class="tag">Bash</p>
+                            </div>
+                            <a href="https://github.com/Wilkozx/OrionV3"><img src="icons/github.svg" alt="github"></a>
+                        </div>
+                    </div>
+                </div>  
+                <div class="project-card">
+                    <a href="https://github.com/Wilkozx/PixelGames"><img src="images/pixelgames.png" alt="pixelgames repo link"></a>
+                    <div class="project-card-details">
+                        <div class="project-card-title">
+                            <h3>PixelGames</h3>
+                            <p>Started December 2023</p>
+                        </div>
+                        <div class="project-card-content">
+                            <p>
+                                PixelGames is a collection of small chat-based games that can be played in Minecraft.
+                                The project leverages Minecraft Forge Modding to create custom server-side messages to prompt 
+                                the player to play the games. The games are written in Java and are designed to be simple and fun.
+                                The mod is also designed to be easily expandable, so more games can be added in the future.
+                                The repository also contains a custom made documentation website to help users get started and configure the mod. 
+                            </p>
+                        </div>
+                        <div class="project-card-footer">
+                            <div id="tags">
+                                <p id="minecraft" class="tag">Minecraft</p>
+                                <p id="forge" class="tag">Forge</p>
+                                <p id="java" class="tag">Java</p>
+                                <p id="gradle" class="tag">Gradle</p>
+                            </div>
+                            <a href="https://github.com/Wilkozx/PixelGames"><img src="icons/github.svg" alt="github"></a>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+        <div id="right-side">
+            <div class="title">Quick Links</div>
+            <div id="quick-links">
+                <div id="quick-links-content">
+                    <a href="https://github.com/Wilkozx"><img src="icons/github.svg" alt="github"></a>
+                    <a href="https://www.linkedin.com/in/alex-wilkinson-6595b7260/"><img src="icons/linkedin.svg" alt="linkedIn"></a>
+                    <a href="#"><img src="icons/mail.svg" alt="email"></a>      
+                </div>    
+            </div>
+        </div>
+</body>
+</html>

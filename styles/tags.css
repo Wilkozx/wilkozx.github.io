@@ -1,0 +1,61 @@
+#tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tag {
+    padding: 5px 10px;
+    border-radius: 12px;
+    margin: 5px;
+    margin-top: 15px;
+    font-size: 0.8em;
+}
+
+#java {
+    background-color: #f89820;
+}
+
+#nosql {
+    background-color: #47A248;
+}
+
+#maven {
+    background-color: #C71A36;
+}
+
+#python {
+    background-color: #3776AB;
+}
+
+#react {
+    background-color: #61DAFB;
+}
+
+#postgresSQL {
+    background-color: #4169E1;
+}
+
+#flask {
+    background-color: #000000;
+}
+
+#docker {
+    background-color: #2496ED;
+}
+
+#bash {
+    background-color: #4EAA25;
+}
+
+#gradle {
+    background-color: #007396;
+}
+
+#forge {
+    background-color: #F16436;
+}
+
+#minecraft {
+    background-color: #00AA00;
+}
