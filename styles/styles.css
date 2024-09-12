@@ -303,6 +303,11 @@ body {
         width: 100%;
     }
 
+    #tags {
+        display: flex;
+        overflow: scroll;
+    }
+
     .project-card img {
         width: 100%;
     }
