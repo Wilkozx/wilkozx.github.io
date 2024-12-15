@@ -10,6 +10,8 @@
     --text-secondary: #ffffff;
     --border-colour: #696969;
     --svg-colour: #282828;
+
+    scroll-behavior: smooth;
 }
 
 body {
